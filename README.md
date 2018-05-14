@@ -6,6 +6,6 @@ Usage
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{HTTP_USER_AGENT} "MSIE [6-8]" [NC]
+RewriteCond %{HTTP_USER_AGENT} "MSIE [6-9]" [NC]
 RewriteRule ^(.*)$ /reject_ie/index.html [R=301,L]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
