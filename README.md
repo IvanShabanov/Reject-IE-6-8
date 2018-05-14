@@ -1,4 +1,4 @@
-# Reject-IE-6-8
+# Reject-IE-6-9
 
 Usage
 1) Upload files on yoursite in directory "reject_ie", or any else
